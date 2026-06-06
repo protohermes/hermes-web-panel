@@ -1,5 +1,7 @@
+'use client';
+
 import Chat from '@/components/Chat';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 export default function Home() {
   const [employee, setEmployee] = useState<'executive-assistant' | 'devops-engineer'>('executive-assistant');
